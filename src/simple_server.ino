@@ -23,6 +23,9 @@ const int LED2 = 27;
 bool led1State = false;
 bool led2State = false;
 
+// Note: Wokwi uses a special WiFi network called Wokwi-GUEST (no password).
+// This virtual network provides internet access to the simulated ESP32.
+// To learn more: https://docs.wokwi.com/guides/esp32-wifi#connecting-to-the-wifi
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 const int WIFI_CHANNEL = 6; // Speeds up the connection in Wokwi
